@@ -261,3 +261,166 @@
 13:42:47.312 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
 13:42:48.251 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
 13:42:58.227 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:22:47.276 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:22:47.279 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:22:48.183 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Login error validation passed
+01:22:52.408 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:22:52.409 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:22:55.183 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Product added to cart: ZARA COAT 3
+01:23:08.353 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
+01:23:08.636 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:32:35.215 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:32:35.219 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:32:35.235 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:32:35.235 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:32:35.427 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:33:01.473 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:33:01.476 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:33:01.491 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:33:01.491 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:33:01.687 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:33:43.930 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:33:43.934 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:33:43.948 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:33:43.949 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:33:44.142 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:34:12.714 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:34:12.717 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:34:12.910 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:34:22.247 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:34:22.252 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:34:22.276 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:34:22.276 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:34:22.477 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:34:36.603 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:34:36.605 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:34:36.606 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+01:34:39.052 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Product added to cart: ZARA COAT 3
+01:34:52.192 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Verified product in cart: ZARA COAT 3
+01:34:52.910 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Order placed for: ZARA COAT 3
+01:34:52.963 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Order confirmed with message: THANKYOU FOR THE ORDER.
+01:34:59.494 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:34:59.494 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:34:59.494 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: john.doe@example.com, Password: ********
+01:35:10.915 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:39:21.322 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:39:21.326 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:39:21.341 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:39:21.341 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:39:21.571 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:39:45.658 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:39:45.666 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:39:46.021 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:39:46.023 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:39:46.029 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+01:39:49.976 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:39:49.977 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:39:50.603 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:39:50.604 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:39:50.604 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: john.doe@example.com, Password: ********
+01:39:52.274 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:39:56.794 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:39:56.795 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:39:58.290 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:40:31.107 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:40:31.112 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:40:31.626 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Login error validation passed
+01:40:31.747 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:40:31.749 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:40:31.762 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+01:40:34.643 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Product added to cart: ZARA COAT 3
+01:40:36.281 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:40:36.282 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:40:39.422 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Product added to cart: ZARA COAT 3
+01:40:47.580 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Verified product in cart: ZARA COAT 3
+01:40:48.725 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Order placed for: ZARA COAT 3
+01:40:48.865 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Order confirmed with message: THANKYOU FOR THE ORDER.
+01:40:52.331 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
+01:40:52.679 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:40:52.858 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:40:52.859 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:40:52.859 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: john.doe@example.com, Password: ********
+01:41:03.967 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:45:29.587 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:45:29.589 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:45:32.104 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Product added to cart: ZARA COAT 3
+01:45:44.899 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
+01:45:45.785 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:46:29.161 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:46:29.165 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:46:29.171 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:46:29.172 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:46:29.183 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+01:46:35.009 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:46:35.010 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:46:35.017 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:46:35.017 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:46:35.017 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: john.doe@example.com, Password: ********
+01:46:36.821 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:46:39.898 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:46:39.899 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:46:41.398 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:47:11.816 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:47:11.822 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:47:11.874 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:47:11.876 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:47:11.884 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+01:47:16.057 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:47:16.057 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:47:16.203 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:47:16.203 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:47:16.203 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: john.doe@example.com, Password: ********
+01:47:17.866 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:47:20.439 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:47:20.439 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:47:21.886 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:47:39.690 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:47:39.700 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:47:39.728 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:47:39.731 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:47:39.745 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+01:47:40.771 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Login error validation passed
+01:47:42.508 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Product added to cart: ZARA COAT 3
+01:47:44.675 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:47:44.676 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:47:44.943 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:47:45.534 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:48:23.236 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+01:48:23.245 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+01:48:23.652 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:48:23.653 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:48:23.659 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+01:48:23.866 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Login error validation passed
+01:48:26.161 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:48:26.162 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:48:26.431 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Product added to cart: ZARA COAT 3
+01:48:29.211 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Product added to cart: ZARA COAT 3
+01:48:39.341 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Verified product in cart: ZARA COAT 3
+01:48:40.152 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Order placed for: ZARA COAT 3
+01:48:40.269 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Order confirmed with message: THANKYOU FOR THE ORDER.
+01:48:42.060 [TestNG-tests-2] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
+01:48:42.400 [TestNG-tests-2] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:48:42.432 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: submitOrder
+01:48:42.433 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Starting order submission
+01:48:42.433 [TestNG-tests-1] INFO  ecom.Tests.SubmitOrderTest - Login credentials -> Email: john.doe@example.com, Password: ********
+01:48:53.235 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:49:29.932 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:49:29.941 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:49:32.805 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Product added to cart: ZARA COAT 3
+01:49:45.644 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
+01:49:45.943 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:49:58.409 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:49:58.412 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:50:00.100 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:51:10.803 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:51:10.806 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:51:12.497 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:54:13.337 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:54:13.341 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:54:14.989 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+01:59:16.658 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+01:59:16.662 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+01:59:18.331 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+02:01:08.706 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+02:01:08.709 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+02:01:10.401 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.

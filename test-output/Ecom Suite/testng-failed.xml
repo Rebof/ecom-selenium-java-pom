@@ -10,7 +10,7 @@
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
-          <include name="submitOrder" invocation-numbers="1 2"/>
+          <include name="submitOrder" invocation-numbers="1"/>
         </methods>
       </class> <!-- ecom.Tests.SubmitOrderTest -->
     </classes>

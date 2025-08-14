@@ -18,7 +18,7 @@ public class ErrorValidationsTest extends BaseTest {
     private static final Logger logger = LogManager.getLogger(ErrorValidationsTest.class);
 
     @Test(
-        groups = {"error"},
+        groups = {"loginValidation"},
         retryAnalyzer = ecom.TestComponents.Retry.class
     )
     public void loginErrorValidation() throws IOException, InterruptedException {
@@ -34,7 +34,7 @@ public class ErrorValidationsTest extends BaseTest {
     }
 
     @Test(
-        groups = {"error"}
+        groups = {"cartValidation"}
     )
     public void productErrorValidation() throws IOException, InterruptedException {
         logger.info("Starting product error validation test");

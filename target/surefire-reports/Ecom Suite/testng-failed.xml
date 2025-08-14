@@ -4,15 +4,20 @@
   <listeners>
     <listener class-name="ecom.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="3" parallel="tests" name="Submit Order Test(failed)" verbose="0">
+  <test thread-count="3" parallel="tests" name="Cart Validation Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="cartValidation"/>
+      </run>
+    </groups>
     <classes>
-      <class name="ecom.Tests.SubmitOrderTest">
+      <class name="ecom.Tests.ErrorValidationsTest">
         <methods>
           <include name="launchApplication"/>
+          <include name="productErrorValidation"/>
           <include name="tearDown"/>
-          <include name="submitOrder" invocation-numbers="1"/>
         </methods>
-      </class> <!-- ecom.Tests.SubmitOrderTest -->
+      </class> <!-- ecom.Tests.ErrorValidationsTest -->
     </classes>
-  </test> <!-- Submit Order Test(failed) -->
+  </test> <!-- Cart Validation Test(failed) -->
 </suite> <!-- Failed suite [Ecom Suite] -->

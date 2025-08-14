@@ -1,101 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-13T13:42:13 EDT" name="Ecom Suite" finished-at="2025-08-13T13:42:58 EDT" duration-ms="44213">
+  <suite started-at="2025-08-14T02:01:04 EDT" name="Ecom Suite" finished-at="2025-08-14T02:01:10 EDT" duration-ms="5892">
     <groups>
-      <group name="e2e">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:ecom.Tests.SubmitOrderTest@72bd06ca]" name="submitOrder" class="ecom.Tests.SubmitOrderTest"/>
-      </group> <!-- e2e -->
-      <group name="error">
-        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" name="loginErrorValidation" class="ecom.Tests.ErrorValidationsTest"/>
-        <method signature="ErrorValidationsTest.productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" name="productErrorValidation" class="ecom.Tests.ErrorValidationsTest"/>
-      </group> <!-- error -->
+      <group name="cartValidation">
+        <method signature="ErrorValidationsTest.productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" name="productErrorValidation" class="ecom.Tests.ErrorValidationsTest"/>
+      </group> <!-- cartValidation -->
     </groups>
-    <test started-at="2025-08-13T13:42:13 EDT" name="Error Validations Test" finished-at="2025-08-13T13:42:48 EDT" duration-ms="34030">
+    <test started-at="2025-08-14T02:01:04 EDT" name="Cart Validation Test" finished-at="2025-08-14T02:01:10 EDT" duration-ms="5892">
       <class name="ecom.Tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" started-at="2025-08-13T13:42:14 EDT" name="launchApplication" finished-at="2025-08-13T13:42:23 EDT" duration-ms="9361" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" started-at="2025-08-14T02:01:04 EDT" name="launchApplication" finished-at="2025-08-14T02:01:08 EDT" duration-ms="4325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" started-at="2025-08-13T13:42:23 EDT" name="loginErrorValidation" finished-at="2025-08-13T13:42:24 EDT" duration-ms="844" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" started-at="2025-08-13T13:42:24 EDT" name="tearDown" finished-at="2025-08-13T13:42:24 EDT" duration-ms="690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" started-at="2025-08-13T13:42:24 EDT" name="launchApplication" finished-at="2025-08-13T13:42:31 EDT" duration-ms="6973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" started-at="2025-08-13T13:42:31 EDT" name="productErrorValidation" finished-at="2025-08-13T13:42:47 EDT" duration-ms="15420" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ErrorValidationsTest@1568159]" started-at="2025-08-13T13:42:47 EDT" name="tearDown" finished-at="2025-08-13T13:42:48 EDT" duration-ms="709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ecom.Tests.ErrorValidationsTest -->
-    </test> <!-- Error Validations Test -->
-    <test started-at="2025-08-13T13:42:13 EDT" name="Submit Order Test" finished-at="2025-08-13T13:42:58 EDT" duration-ms="44213">
-      <class name="ecom.Tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.SubmitOrderTest@72bd06ca]" started-at="2025-08-13T13:42:14 EDT" name="launchApplication" finished-at="2025-08-13T13:42:20 EDT" duration-ms="6306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecom.Tests.SubmitOrderTest@72bd06ca]" started-at="2025-08-13T13:42:20 EDT" name="submitOrder" data-provider="getData" finished-at="2025-08-13T13:42:37 EDT" duration-ms="16503" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Pass@123, email=rebofkatwal10@gmail.com, productName=ZARA COAT 3}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.SubmitOrderTest@72bd06ca]" started-at="2025-08-13T13:42:37 EDT" name="tearDown" finished-at="2025-08-13T13:42:37 EDT" duration-ms="763" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.SubmitOrderTest@72bd06ca]" started-at="2025-08-13T13:42:37 EDT" name="launchApplication" finished-at="2025-08-13T13:42:47 EDT" duration-ms="9284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecom.Tests.SubmitOrderTest@72bd06ca]" started-at="2025-08-13T13:42:47 EDT" name="submitOrder" data-provider="getData" finished-at="2025-08-13T13:42:57 EDT" duration-ms="10187" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=John@123, email=john.doe@example.com, productName=ADIDAS ORIGINAL}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" started-at="2025-08-14T02:01:08 EDT" name="productErrorValidation" finished-at="2025-08-14T02:01:10 EDT" duration-ms="1311" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
+              <![CDATA[element click intercepted: Element is not clickable at point (392, 718)
+  (Session info: chrome=139.0.7258.66)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-71-generic', java.version: '21.0.7'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 6.8.0-71-generic, moz:processID: 678754, moz:profile: /tmp/rust_mozprofile54qfPe, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Session ID: 5137b0d9-3d50-4836-b3fd-696352113bfa]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bb40271b71ef035dd73d23ae043856c, clickElement {id=f.2C06E7D828BAA44FEF23F4C07672294C.d.7D2DD70211F224B26042C9417EC143B4.e.10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42237}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42237/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (5bb40271b71ef035dd73d23ae043856c)] -> id: login]
+Session ID: 5bb40271b71ef035dd73d23ae043856c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 718)
+  (Session info: chrome=139.0.7258.66)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-71-generic', java.version: '21.0.7'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 6.8.0-71-generic, moz:processID: 678754, moz:profile: /tmp/rust_mozprofile54qfPe, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Session ID: 5137b0d9-3d50-4836-b3fd-696352113bfa
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at ecom.common.CommonComponents.waitForVisibility(CommonComponents.java:33)
-at ecom.pageobjects.ProductCataloguePage.getProductList(ProductCataloguePage.java:24)
-at ecom.pageobjects.ProductCataloguePage.getProductByName(ProductCataloguePage.java:32)
-at ecom.pageobjects.ProductCataloguePage.addProductToCart(ProductCataloguePage.java:43)
-at ecom.Tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:43)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bb40271b71ef035dd73d23ae043856c, clickElement {id=f.2C06E7D828BAA44FEF23F4C07672294C.d.7D2DD70211F224B26042C9417EC143B4.e.10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42237}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42237/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (5bb40271b71ef035dd73d23ae043856c)] -> id: login]
+Session ID: 5bb40271b71ef035dd73d23ae043856c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at ecom.pageobjects.LoginPage.loginApplication(LoginPage.java:37)
+at ecom.Tests.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -118,15 +77,15 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.SubmitOrderTest@72bd06ca]" started-at="2025-08-13T13:42:57 EDT" name="tearDown" finished-at="2025-08-13T13:42:58 EDT" duration-ms="684" status="PASS">
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" started-at="2025-08-14T02:01:10 EDT" name="tearDown" finished-at="2025-08-14T02:01:10 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ecom.Tests.SubmitOrderTest -->
-    </test> <!-- Submit Order Test -->
+      </class> <!-- ecom.Tests.ErrorValidationsTest -->
+    </test> <!-- Cart Validation Test -->
   </suite> <!-- Ecom Suite -->
 </testng-results>

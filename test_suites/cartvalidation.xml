@@ -7,11 +7,11 @@
         <listener class-name="ecom.TestComponents.Listeners"/>
     </listeners>
 
-    <!-- Run only the 'loginValidation' group -->
-    <test thread-count="5" name="Login Validation Test">
+    <!-- Run only the 'cartValidation' group -->
+    <test thread-count="5" name="Cart Validation Test">
         <groups>
             <run>
-                <include name="loginValidation"/>
+                <include name="cartValidation"/>
             </run>
         </groups>
         <classes>

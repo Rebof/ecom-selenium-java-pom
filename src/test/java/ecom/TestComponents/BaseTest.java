@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -33,24 +34,23 @@ public class BaseTest {
             "/src/main/java/ecom/resources/GlobalData.properties");
         prop.load(fis);		
         
-        
         String browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
         
-        //boolean headless = Boolean.parseBoolean(prop.getProperty("headless"));
-        
-        if (browserName.contains("chrome")) {
+        if (browserName.toLowerCase().contains("chrome")) {
             WebDriverManager.chromedriver().setup();
-            
-            if (browserName.contains("headless")) {
-                ChromeOptions options = new ChromeOptions();
-                options.addArguments("--headless=new"); // modern headless mode
-                options.addArguments("--window-size=1920,1080"); // set window size
-                driver = new ChromeDriver(options);
-            } else {
-                driver = new ChromeDriver();
-            }
-        }
+            ChromeOptions options = new ChromeOptions();
 
+            if (browserName.toLowerCase().contains("headless")) {
+                options.addArguments("--headless=new");
+                options.addArguments("--window-size=1440,2000");
+            } else {
+                // Normal headed mode
+                options.addArguments("--start-maximized");
+            }
+
+            driver = new ChromeDriver(options);
+        } 
+        
         else if (browserName.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
@@ -86,13 +86,13 @@ public class BaseTest {
     }
 
     
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void launchApplication() throws IOException {
         driver = initializeDriver();
         driver.get(prop.getProperty("url"));
     }
     
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         if (driver != null) {
             driver.quit();
