@@ -8,10 +8,5 @@
     "email": "john.doe@example.com",
     "password": "John@123",
     "productName": "ADIDAS ORIGINAL"
-  },
-  {
-    "email": "jane.smith@example.com",
-    "password": "Jane@123",
-    "productName": "NIKE RUNNER"
   }
 ]

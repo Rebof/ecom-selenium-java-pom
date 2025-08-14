@@ -21,7 +21,11 @@ public class SubmitOrderTest extends BaseTest {
 
     private static final Logger logger = LogManager.getLogger(SubmitOrderTest.class);
 
-    @Test(dataProvider = "getData", dataProviderClass = DataProviders.class)
+    @Test(
+        dataProvider = "getData", 
+        dataProviderClass = DataProviders.class, 
+        groups = {"e2e"}
+    )
     public void submitOrder(HashMap<String, String> input) {
         String email = input.get("email");
         String password = input.get("password");
@@ -53,6 +57,4 @@ public class SubmitOrderTest extends BaseTest {
         Assert.assertEquals(confirmationPage.getConfirmationMessage(), confirmationMsg);
         logger.info("Order confirmed with message: {}", confirmationMsg);
     }
-
-    
 }

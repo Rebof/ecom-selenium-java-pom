@@ -42,6 +42,12 @@ public class ProductCataloguePage extends CommonComponents {
     public void addProductToCart(String productName) {
         WebElement prod = getProductByName(productName);
         if (prod != null) {
+        	try {
+                // Temporary fix: wait for spinner/overlay to disappear
+                Thread.sleep(2000); // 2 seconds
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             prod.findElement(addToCartButton).click();
         } else {
             throw new RuntimeException("Product not found: " + productName);

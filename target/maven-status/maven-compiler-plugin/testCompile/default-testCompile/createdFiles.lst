@@ -1,0 +1,9 @@
+ecom/Tests/ErrorValidationsTest.class
+ecom/data/DataReader.class
+ecom/TestComponents/BaseTest.class
+ecom/data/DataProviders.class
+ecom/TestComponents/Retry.class
+ecom/Tests/standalonetest.class
+ecom/TestComponents/Listeners.class
+ecom/Tests/SubmitOrderTest.class
+ecom/data/DataReader$1.class

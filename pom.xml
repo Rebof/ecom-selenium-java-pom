@@ -57,8 +57,82 @@
   <artifactId>log4j-core</artifactId>
   <version>2.20.0</version>
 </dependency>
+
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.34</version>
+    <scope>provided</scope>
+</dependency>
       
     </dependencies>
+    
+    <profiles>
+    <profile>
+    <id>Complete</id>
+      <build>
+    <pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.5.3</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>test_suites/testng.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+    </plugins>
+    </pluginManagement>
+  </build>
+    
+    </profile>
+    
+    <profile>
+    <id>loginValidation</id>
+      <build>
+    <pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.5.3</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>test_suites/loginvalidation.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+    </plugins>
+    </pluginManagement>
+  </build>
+    
+    </profile>
+    
+        <profile>
+    <id>SubmitOrderOnly</id>
+      <build>
+    <pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.5.3</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>test_suites/submitorderonly.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+    </plugins>
+    </pluginManagement>
+  </build>
+    
+    </profile>
+    
+    
+    </profiles>
 
   
 
