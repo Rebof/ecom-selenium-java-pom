@@ -24,11 +24,27 @@
     <version>4.33.0</version>
 </dependency>
 
+ <!-- Cucumber Core -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.18.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Cucumber TestNG -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-testng</artifactId>
+        <version>7.18.1</version>
+        <scope>test</scope>
+    </dependency>
+
 
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.9.0</version> <!-- Use latest stable version -->
+    <version>7.9.0</version> 
     <scope>test</scope>
 </dependency>
 

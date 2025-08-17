@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Aug 10 11:53:57 EDT 2025</td>
+<td>Started on:</td><td>Sun Aug 17 11:24:20 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16950 ms)</td>
+<tr><td>Total time:</td><td>40 seconds (40423 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,49 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cucumber.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Place an order successfully", "Submit order flow"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-71-generic&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 6.8.0-71-generic, moz:processID: 1404304, moz:profile: /tmp/rust_mozprofileAq6KdQ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: e7b41ef5-6114-47eb-82a2-146675e76f8f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at ecom.common.CommonComponents.waitForVisibility(CommonComponents.java:33)
+	at ecom.pageobjects.ProductCataloguePage.getProductList(ProductCataloguePage.java:24)
+	at ecom.pageobjects.ProductCataloguePage.getProductByName(ProductCataloguePage.java:32)
+	at ecom.pageobjects.ProductCataloguePage.addProductToCart(ProductCataloguePage.java:43)
+	at ecom.stepDefinitions.StepDefinitionCucumber.the_user_adds_product_to_the_cart(StepDefinitionCucumber.java:38)
+	at ✽.the user adds product &quot;ADIDAS SHOES&quot; to the cart(file:///home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/cucumber/SubmitOrderTest.feature:16)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2114701475", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2114701475'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .mb-3 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-71-generic&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0.3, moz:accessibilityChecks: false, moz:buildID: 20250806102122, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 6.8.0-71-generic, moz:processID: 1404304, moz:profile: /tmp/rust_mozprofileAq6KdQ, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: e7b41ef5-6114-47eb-82a2-146675e76f8f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at ecom.common.CommonComponents.waitForVisibility(CommonComponents.java:33)
+	at ecom.pageobjects.ProductCataloguePage.getProductList(ProductCataloguePage.java:24)
+	at ecom.pageobjects.ProductCataloguePage.getProductByName(ProductCataloguePage.java:32)
+	at ecom.pageobjects.ProductCataloguePage.addProductToCart(ProductCataloguePage.java:43)
+	at ecom.stepDefinitions.StepDefinitionCucumber.the_user_adds_product_to_the_cart(StepDefinitionCucumber.java:38)
+	at ✽.the user adds product &quot;ADIDAS SHOES&quot; to the cart(file:///home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/cucumber/SubmitOrderTest.feature:16)
+</pre></div></td>
+<td>16</td>
+<td>cucumber.TestNGRunner@411f53a0</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +119,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ecom.Tests.SubmitOrderTest.submitOrder()'><b>submitOrder</b><br>Test class: ecom.Tests.SubmitOrderTest</td>
+<td title='cucumber.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Place an order successfully", "Submit order flow"</td>
 <td></td>
-<td>3</td>
-<td>ecom.Tests.SubmitOrderTest@4cc451f2</td></tr>
+<td>23</td>
+<td>cucumber.TestNGRunner@411f53a0</td></tr>
 </table><p>
 </body>
 </html>
