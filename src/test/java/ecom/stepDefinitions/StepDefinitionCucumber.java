@@ -20,10 +20,11 @@ public class StepDefinitionCucumber extends BaseTest {
     private CheckOutPage checkOutPage;
     private ConfirmationPage confirmationPage;
 
+    // Positive Order Flow Steps
+
     @Given("The user lands on the login page")
     public void the_user_lands_on_the_login_page() throws IOException {
         launchApplication(); 
-
     }
 
     @Given("the user logs in with email {string} and password {string}")
@@ -57,4 +58,23 @@ public class StepDefinitionCucumber extends BaseTest {
         
         driver.close();
     }
+
+    // Negative / Validation Steps
+
+    @Then("the login error message should be {string}")
+    public void the_login_error_message_should_be(String expectedError) {
+        loginPage = new LoginPage(driver);
+        String actualError = loginPage.getErrorMessage();
+        Assert.assertEquals(actualError, expectedError, "Login error message mismatch!");
+        driver.close();
+    }
+
+    @Then("the product {string} should not be present in the cart")
+    public void the_product_should_not_be_present_in_the_cart(String wrongProduct) {
+        cartPage = new CartPage(driver);
+        boolean match = cartPage.isProductInCart(wrongProduct);
+        Assert.assertFalse(match, "Unexpected product found in cart: " + wrongProduct);
+        driver.close();
+    }
+
 }
