@@ -1,47 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-17T13:43:24 EDT" name="Default suite" finished-at="2025-08-17T13:43:59 EDT" duration-ms="34818">
+  <suite started-at="2025-08-19T08:46:18 EDT" name="Default suite" finished-at="2025-08-19T08:47:00 EDT" duration-ms="42521">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGRunner@411f53a0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
+      <group name="filters">
+        <method signature="FiltersTest.testCategoryElectronics()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testCategoryElectronics" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testCategoryFashion()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testCategoryFashion" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testCategoryHousehold()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testCategoryHousehold" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testPriceRangeFilter()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testPriceRangeFilter" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testSearchFilter()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testSearchFilter" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testSubCategoryLaptops()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testSubCategoryLaptops" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testSubCategoryMobiles()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testSubCategoryMobiles" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testSubCategoryShirts()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testSubCategoryShirts" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testSubCategoryShoes()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testSubCategoryShoes" class="ecom.Tests.FiltersTest"/>
+        <method signature="FiltersTest.testSubCategoryTshirts()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" name="testSubCategoryTshirts" class="ecom.Tests.FiltersTest"/>
+      </group> <!-- filters -->
     </groups>
-    <test started-at="2025-08-17T13:43:24 EDT" name="Default test" finished-at="2025-08-17T13:43:59 EDT" duration-ms="34818">
-      <class name="cucumber.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGRunner@411f53a0]" started-at="2025-08-17T13:43:24 EDT" name="setUpClass" finished-at="2025-08-17T13:43:25 EDT" duration-ms="312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@60c8a093]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-08-19T08:46:18 EDT" name="Default test" finished-at="2025-08-19T08:47:00 EDT" duration-ms="42521">
+      <class name="ecom.Tests.FiltersTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:18 EDT" name="launchApplication" finished-at="2025-08-19T08:46:24 EDT" duration-ms="5848" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGRunner@411f53a0]" started-at="2025-08-17T13:43:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-17T13:43:59 EDT" duration-ms="34451" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Product mismatch validation in cart"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Error validations"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testCategoryElectronics()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:24 EDT" name="testCategoryElectronics" finished-at="2025-08-19T08:46:25 EDT" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGRunner@411f53a0]" started-at="2025-08-17T13:43:59 EDT" name="tearDownClass" finished-at="2025-08-17T13:43:59 EDT" duration-ms="23" status="PASS">
+        </test-method> <!-- testCategoryElectronics -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:25 EDT" name="tearDown" finished-at="2025-08-19T08:46:25 EDT" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumber.TestNGRunner -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:25 EDT" name="launchApplication" finished-at="2025-08-19T08:46:27 EDT" duration-ms="1852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testCategoryFashion()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:27 EDT" name="testCategoryFashion" finished-at="2025-08-19T08:46:28 EDT" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryFashion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:28 EDT" name="tearDown" finished-at="2025-08-19T08:46:28 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:28 EDT" name="launchApplication" finished-at="2025-08-19T08:46:31 EDT" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testCategoryHousehold()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:31 EDT" name="testCategoryHousehold" finished-at="2025-08-19T08:46:32 EDT" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryHousehold -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:32 EDT" name="tearDown" finished-at="2025-08-19T08:46:32 EDT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:32 EDT" name="launchApplication" finished-at="2025-08-19T08:46:34 EDT" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testPriceRangeFilter()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:34 EDT" name="testPriceRangeFilter" finished-at="2025-08-19T08:46:37 EDT" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceRangeFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:37 EDT" name="tearDown" finished-at="2025-08-19T08:46:37 EDT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:37 EDT" name="launchApplication" finished-at="2025-08-19T08:46:38 EDT" duration-ms="1824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSearchFilter()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:38 EDT" name="testSearchFilter" finished-at="2025-08-19T08:46:39 EDT" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:39 EDT" name="tearDown" finished-at="2025-08-19T08:46:39 EDT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:39 EDT" name="launchApplication" finished-at="2025-08-19T08:46:43 EDT" duration-ms="3653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSubCategoryLaptops()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:43 EDT" name="testSubCategoryLaptops" finished-at="2025-08-19T08:46:44 EDT" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubCategoryLaptops -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:44 EDT" name="tearDown" finished-at="2025-08-19T08:46:44 EDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:44 EDT" name="launchApplication" finished-at="2025-08-19T08:46:47 EDT" duration-ms="3747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSubCategoryMobiles()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:47 EDT" name="testSubCategoryMobiles" finished-at="2025-08-19T08:46:48 EDT" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubCategoryMobiles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:48 EDT" name="tearDown" finished-at="2025-08-19T08:46:48 EDT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:48 EDT" name="launchApplication" finished-at="2025-08-19T08:46:52 EDT" duration-ms="3508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSubCategoryShirts()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:52 EDT" name="testSubCategoryShirts" finished-at="2025-08-19T08:46:53 EDT" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubCategoryShirts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:53 EDT" name="tearDown" finished-at="2025-08-19T08:46:53 EDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:53 EDT" name="launchApplication" finished-at="2025-08-19T08:46:55 EDT" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSubCategoryShoes()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:55 EDT" name="testSubCategoryShoes" finished-at="2025-08-19T08:46:56 EDT" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubCategoryShoes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:56 EDT" name="tearDown" finished-at="2025-08-19T08:46:56 EDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:56 EDT" name="launchApplication" finished-at="2025-08-19T08:46:59 EDT" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testSubCategoryTshirts()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:46:59 EDT" name="testSubCategoryTshirts" finished-at="2025-08-19T08:47:00 EDT" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubCategoryTshirts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.FiltersTest@7e276594]" started-at="2025-08-19T08:47:00 EDT" name="tearDown" finished-at="2025-08-19T08:47:00 EDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecom.Tests.FiltersTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

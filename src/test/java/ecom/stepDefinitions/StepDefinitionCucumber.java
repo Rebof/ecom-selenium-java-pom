@@ -1,6 +1,7 @@
 package ecom.stepDefinitions;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.testng.Assert;
 
@@ -20,11 +21,13 @@ public class StepDefinitionCucumber extends BaseTest {
     private CheckOutPage checkOutPage;
     private ConfirmationPage confirmationPage;
 
-    // Positive Order Flow Steps
+    // -------------------------
+    // Common / Login Steps
+    // -------------------------
 
     @Given("The user lands on the login page")
     public void the_user_lands_on_the_login_page() throws IOException {
-        launchApplication(); 
+        launchApplication();
     }
 
     @Given("the user logs in with email {string} and password {string}")
@@ -33,6 +36,10 @@ public class StepDefinitionCucumber extends BaseTest {
         loginPage.loginApplication(email, password);
         productCatalogue = new ProductCataloguePage(driver);
     }
+
+    // -------------------------
+    // Order Flow Steps
+    // -------------------------
 
     @When("the user adds product {string} to the cart")
     public void the_user_adds_product_to_the_cart(String productName) {
@@ -55,11 +62,12 @@ public class StepDefinitionCucumber extends BaseTest {
         confirmationPage = new ConfirmationPage(driver);
         String actualMsg = confirmationPage.getConfirmationMessage();
         Assert.assertEquals(actualMsg, expectedMsg, "Confirmation message mismatch!");
-        
         driver.close();
     }
 
+    // -------------------------
     // Negative / Validation Steps
+    // -------------------------
 
     @Then("the login error message should be {string}")
     public void the_login_error_message_should_be(String expectedError) {
@@ -74,6 +82,82 @@ public class StepDefinitionCucumber extends BaseTest {
         cartPage = new CartPage(driver);
         boolean match = cartPage.isProductInCart(wrongProduct);
         Assert.assertFalse(match, "Unexpected product found in cart: " + wrongProduct);
+        driver.close();
+    }
+
+    // -------------------------
+    // Filter Steps
+    // -------------------------
+
+    @When("I search for {string}")
+    public void i_search_for(String productName) {
+        productCatalogue.searchProduct(productName);
+    }
+
+    @Then("I should see {string} in the results")
+    public void i_should_see_in_results(String productName) {
+        List<String> products = productCatalogue.getVisibleProductNames();
+        Assert.assertTrue(products.contains(productName), productName + " should be visible");
+        driver.close();
+    }
+
+    @When("I set the price range from {string} to {string}")
+    public void i_set_price_range(String min, String max) {
+        productCatalogue.setPriceRange(min, max);
+    }
+
+    @Then("I should see the following products:")
+    public void i_should_see_the_following_products(io.cucumber.datatable.DataTable dataTable) {
+        List<String> expected = dataTable.asList();
+        List<String> actual = productCatalogue.getVisibleProductNames();
+        Assert.assertTrue(actual.containsAll(expected),
+                "Expected: " + expected + " but got: " + actual);
+        driver.close();
+    }
+
+    @When("I select the Fashion category")
+    public void i_select_fashion() {
+        productCatalogue.selectFashion();
+    }
+
+    @When("I select the Electronics category")
+    public void i_select_electronics() {
+        productCatalogue.selectElectronics();
+    }
+
+    @When("I select the Household category")
+    public void i_select_household() {
+        productCatalogue.selectHousehold();
+    }
+
+    @When("I select the Shirts sub-category")
+    public void i_select_shirts() {
+        productCatalogue.selectShirts();
+    }
+
+    @When("I select the T-Shirts sub-category")
+    public void i_select_tshirts() {
+        productCatalogue.selectTshirts();
+    }
+
+    @When("I select the Shoes sub-category")
+    public void i_select_shoes() {
+        productCatalogue.selectShoes();
+    }
+
+    @When("I select the Mobiles sub-category")
+    public void i_select_mobiles() {
+        productCatalogue.selectMobiles();
+    }
+
+    @When("I select the Laptops sub-category")
+    public void i_select_laptops() {
+        productCatalogue.selectLaptops();
+    }
+
+    @Then("a toast message should be visible")
+    public void toast_should_be_visible() {
+        Assert.assertTrue(productCatalogue.isToastVisible(), "Toast should be visible");
         driver.close();
     }
 
