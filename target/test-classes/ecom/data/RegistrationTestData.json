@@ -1,0 +1,122 @@
+[
+  {
+    "name": "First Name Required",
+    "firstName": "",
+    "lastName": "Ronaldo",
+    "email": "cr7@example.com",
+    "mobile": "9876543210",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[contains(text(),'*First Name is required')]"
+  },
+  {
+    "name": "Email Required",
+    "firstName": "Lionel",
+    "lastName": "Messi",
+    "email": "",
+    "mobile": "9876543210",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[contains(text(),'*Email is required')]"
+  },
+  {
+    "name": "Phone Number Required",
+    "firstName": "Neymar",
+    "lastName": "Junior",
+    "email": "neymar@example.com",
+    "mobile": "",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[contains(text(),'*Phone Number is required')]"
+  },
+  {
+    "name": "Password Required",
+    "firstName": "Kylian",
+    "lastName": "Mbappé",
+    "email": "mbappe@example.com",
+    "mobile": "9876543210",
+    "password": "",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[contains(text(),'*Password is required')]"
+  },
+  {
+    "name": "Confirm Password Required",
+    "firstName": "Mohamed",
+    "lastName": "Salah",
+    "email": "salah@example.com",
+    "mobile": "9876543210",
+    "password": "Password123",
+    "confirmPassword": "",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[contains(text(),'Confirm Password is required')]"
+  },
+  {
+    "name": "Checkbox Not Selected",
+    "firstName": "Goku",
+    "lastName": "Son",
+    "email": "goku@example.com",
+    "mobile": "9876543210",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "false",
+    "expectedError": "//div[contains(text(),'*Please check above checkbox')]"
+  },
+  {
+    "name": "Password and Confirm Password Mismatch",
+    "firstName": "Vegeta",
+    "lastName": "Prince",
+    "email": "vegeta@example.com",
+    "mobile": "9876543210",
+    "password": "Password123",
+    "confirmPassword": "Password999",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[contains(text(),'Password and Confirm Password must match')]"
+  },
+  {
+    "name": "Phone Number With Letters",
+    "firstName": "Piccolo",
+    "lastName": "Namek",
+    "email": "piccolo@example.com",
+    "mobile": "98ABCD1234",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[normalize-space()='*only numbers is allowed']"
+  },
+  {
+    "name": "Phone Number More Than 10 Digits",
+    "firstName": "Gohan",
+    "lastName": "Son",
+    "email": "gohan@example.com",
+    "mobile": "9876543210987",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[normalize-space()='*Phone Number must be 10 digit']"
+  },
+  {
+    "name": "Extra Test Case",
+    "firstName": "Trunks",
+    "lastName": "Briefs",
+    "email": "trunks@example.com",
+    "mobile": "9876543210",
+    "password": "Password123",
+    "confirmPassword": "Password123",
+    "occupationValue": "3: Engineer",
+    "checkbox": "true",
+    "expectedError": "//div[contains(text(),'*Some error for demo')]"
+  }
+]

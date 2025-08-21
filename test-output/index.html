@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Trunks, lastName=Briefs, password=Password123, name=Extra Te...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Trunks, lastName=Briefs, password=Password123, name=Extra Te...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,52 +117,47 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testCategoryElectronics">testCategoryElectronics</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Kylian, lastName=Mbappé, password=, name=Password Required, ...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Kylian, lastName=Mbappé, password=, name=Password Required, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testCategoryFashion">testCategoryFashion</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Piccolo, lastName=Namek, password=Password123, name=Phone Nu...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Piccolo, lastName=Namek, password=Password123, name=Phone Nu...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testCategoryHousehold">testCategoryHousehold</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Mohamed, lastName=Salah, password=Password123, name=Confirm ...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Mohamed, lastName=Salah, password=Password123, name=Confirm ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testPriceRangeFilter">testPriceRangeFilter</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Vegeta, lastName=Prince, password=Password123, name=Password...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Vegeta, lastName=Prince, password=Password123, name=Password...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testSearchFilter">testSearchFilter</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Neymar, lastName=Junior, password=Password123, name=Phone Nu...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Neymar, lastName=Junior, password=Password123, name=Phone Nu...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testSubCategoryLaptops">testSubCategoryLaptops</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Gohan, lastName=Son, password=Password123, name=Phone Number...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Gohan, lastName=Son, password=Password123, name=Phone Number...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testSubCategoryMobiles">testSubCategoryMobiles</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Lionel, lastName=Messi, password=Password123, name=Email Req...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Lionel, lastName=Messi, password=Password123, name=Email Req...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testSubCategoryShirts">testSubCategoryShirts</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=Goku, lastName=Son, password=Password123, name=Checkbox Not ...)">registrationValidationTest({occupationValue=3: Engineer, firstName=Goku, lastName=Son, password=Password123, name=Checkbox Not ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testSubCategoryShoes">testSubCategoryShoes</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.FiltersTest" class="method navigator-link" hash-for-method="testSubCategoryTshirts">testSubCategoryTshirts</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="ecom.Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidationTest({occupationValue=3: Engineer, firstName=, lastName=Ronaldo, password=Password123, name=First Name Re...)">registrationValidationTest({occupationValue=3: Engineer, firstName=, lastName=Ronaldo, password=Password123, name=First Name Re...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -163,80 +172,150 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ecom.Tests.FiltersTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">ecom.Tests.RegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCategoryElectronics">
-                  </a> <!-- testCategoryElectronics -->
-                  <span class="method-name">testCategoryElectronics</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Trunks, lastName=Briefs, password=Password123, name=Extra Te...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Trunks, lastName=Briefs, password=Password123, name=Extra Te...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Trunks, lastName=Briefs, password=Password123, name=Extra Test Case, mobile=9876543210, checkbox=true, confirmPassword=Password123, expectedError=//div[contains(text(),'*Some error for demo')], email=trunks@example.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;*Some error for demo&apos;)]&quot;}
+  (Session info: chrome=139.0.7258.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-71-generic&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f06507183df79f309353a824c9ecad07, findElement {using=xpath, value=//div[contains(text(),&apos;*Some error for demo&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.127, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34829}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34829/devtoo..., se:cdpVersion: 139.0.7258.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f06507183df79f309353a824c9ecad07
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at ecom.Tests.RegistrationTest.registrationValidationTest(RegistrationTest.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ecom.Tests.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Kylian, lastName=Mbappé, password=, name=Password Required, ...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Kylian, lastName=Mbappé, password=, name=Password Required, ...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Kylian, lastName=Mbappé, password=, name=Password Required, mobile=9876543210, checkbox=true, confirmPassword=Password123, expectedError=//div[contains(text(),'*Password is required')], email=mbappe@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testCategoryFashion">
-                  </a> <!-- testCategoryFashion -->
-                  <span class="method-name">testCategoryFashion</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Piccolo, lastName=Namek, password=Password123, name=Phone Nu...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Piccolo, lastName=Namek, password=Password123, name=Phone Nu...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Piccolo, lastName=Namek, password=Password123, name=Phone Number With Letters, mobile=98ABCD1234, checkbox=true, confirmPassword=Password123, expectedError=//div[normalize-space()='*only numbers is allowed'], email=piccolo@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testCategoryHousehold">
-                  </a> <!-- testCategoryHousehold -->
-                  <span class="method-name">testCategoryHousehold</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Mohamed, lastName=Salah, password=Password123, name=Confirm ...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Mohamed, lastName=Salah, password=Password123, name=Confirm ...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Mohamed, lastName=Salah, password=Password123, name=Confirm Password Required, mobile=9876543210, checkbox=true, confirmPassword=, expectedError=//div[contains(text(),'Confirm Password is required')], email=salah@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testPriceRangeFilter">
-                  </a> <!-- testPriceRangeFilter -->
-                  <span class="method-name">testPriceRangeFilter</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Vegeta, lastName=Prince, password=Password123, name=Password...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Vegeta, lastName=Prince, password=Password123, name=Password...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Vegeta, lastName=Prince, password=Password123, name=Password and Confirm Password Mismatch, mobile=9876543210, checkbox=true, confirmPassword=Password999, expectedError=//div[contains(text(),'Password and Confirm Password must match')], email=vegeta@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSearchFilter">
-                  </a> <!-- testSearchFilter -->
-                  <span class="method-name">testSearchFilter</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Neymar, lastName=Junior, password=Password123, name=Phone Nu...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Neymar, lastName=Junior, password=Password123, name=Phone Nu...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Neymar, lastName=Junior, password=Password123, name=Phone Number Required, mobile=, checkbox=true, confirmPassword=Password123, expectedError=//div[contains(text(),'*Phone Number is required')], email=neymar@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSubCategoryLaptops">
-                  </a> <!-- testSubCategoryLaptops -->
-                  <span class="method-name">testSubCategoryLaptops</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Gohan, lastName=Son, password=Password123, name=Phone Number...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Gohan, lastName=Son, password=Password123, name=Phone Number...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Gohan, lastName=Son, password=Password123, name=Phone Number More Than 10 Digits, mobile=9876543210987, checkbox=true, confirmPassword=Password123, expectedError=//div[normalize-space()='*Phone Number must be 10 digit'], email=gohan@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSubCategoryMobiles">
-                  </a> <!-- testSubCategoryMobiles -->
-                  <span class="method-name">testSubCategoryMobiles</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Lionel, lastName=Messi, password=Password123, name=Email Req...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Lionel, lastName=Messi, password=Password123, name=Email Req...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Lionel, lastName=Messi, password=Password123, name=Email Required, mobile=9876543210, checkbox=true, confirmPassword=Password123, expectedError=//div[contains(text(),'*Email is required')], email=})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSubCategoryShirts">
-                  </a> <!-- testSubCategoryShirts -->
-                  <span class="method-name">testSubCategoryShirts</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=Goku, lastName=Son, password=Password123, name=Checkbox Not ...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=Goku, lastName=Son, password=Password123, name=Checkbox Not ...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=Goku, lastName=Son, password=Password123, name=Checkbox Not Selected, mobile=9876543210, checkbox=false, confirmPassword=Password123, expectedError=//div[contains(text(),'*Please check above checkbox')], email=goku@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSubCategoryShoes">
-                  </a> <!-- testSubCategoryShoes -->
-                  <span class="method-name">testSubCategoryShoes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSubCategoryTshirts">
-                  </a> <!-- testSubCategoryTshirts -->
-                  <span class="method-name">testSubCategoryTshirts</span>
+                  <a name="registrationValidationTest({occupationValue=3: Engineer, firstName=, lastName=Ronaldo, password=Password123, name=First Name Re...)">
+                  </a> <!-- registrationValidationTest({occupationValue=3: Engineer, firstName=, lastName=Ronaldo, password=Password123, name=First Name Re...) -->
+                  <span class="method-name">registrationValidationTest</span>
+                  <span class="parameters">({occupationValue=3: Engineer, firstName=, lastName=Ronaldo, password=Password123, name=First Name Required, mobile=9876543210, checkbox=true, confirmPassword=Password123, expectedError=//div[contains(text(),'*First Name is required')], email=cr7@example.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,7 +323,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--1080437067/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse-359569006/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -253,7 +332,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ecom.Tests.FiltersTest&quot;/&gt;
+      &lt;class name=&quot;ecom.Tests.RegistrationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -278,46 +357,10 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">filters</span>
+              <span class="test-group-name">validation</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">testCategoryElectronics</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testCategoryFashion</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testCategoryHousehold</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testPriceRangeFilter</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSearchFilter</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubCategoryLaptops</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubCategoryMobiles</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubCategoryShirts</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubCategoryShoes</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testSubCategoryTshirts</span>
+                <span class="method-in-group-name">registrationValidationTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -339,50 +382,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testPriceRangeFilter')
-data.setCell(0, 2, 'ecom.Tests.FiltersTest')
-data.setCell(0, 3, 2758);
+data.setCell(0, 1, 'registrationValidationTest')
+data.setCell(0, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(0, 3, 10730);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCategoryFashion')
-data.setCell(1, 2, 'ecom.Tests.FiltersTest')
-data.setCell(1, 3, 970);
+data.setCell(1, 1, 'registrationValidationTest')
+data.setCell(1, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(1, 3, 795);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testSubCategoryShirts')
-data.setCell(2, 2, 'ecom.Tests.FiltersTest')
-data.setCell(2, 3, 941);
+data.setCell(2, 1, 'registrationValidationTest')
+data.setCell(2, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(2, 3, 768);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testSubCategoryMobiles')
-data.setCell(3, 2, 'ecom.Tests.FiltersTest')
-data.setCell(3, 3, 936);
+data.setCell(3, 1, 'registrationValidationTest')
+data.setCell(3, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(3, 3, 766);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testSubCategoryTshirts')
-data.setCell(4, 2, 'ecom.Tests.FiltersTest')
-data.setCell(4, 3, 893);
+data.setCell(4, 1, 'registrationValidationTest')
+data.setCell(4, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(4, 3, 754);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testCategoryElectronics')
-data.setCell(5, 2, 'ecom.Tests.FiltersTest')
-data.setCell(5, 3, 860);
+data.setCell(5, 1, 'registrationValidationTest')
+data.setCell(5, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(5, 3, 740);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testSubCategoryLaptops')
-data.setCell(6, 2, 'ecom.Tests.FiltersTest')
-data.setCell(6, 3, 860);
+data.setCell(6, 1, 'registrationValidationTest')
+data.setCell(6, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(6, 3, 721);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testSubCategoryShoes')
-data.setCell(7, 2, 'ecom.Tests.FiltersTest')
-data.setCell(7, 3, 792);
+data.setCell(7, 1, 'registrationValidationTest')
+data.setCell(7, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(7, 3, 708);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testCategoryHousehold')
-data.setCell(8, 2, 'ecom.Tests.FiltersTest')
-data.setCell(8, 3, 774);
+data.setCell(8, 1, 'registrationValidationTest')
+data.setCell(8, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(8, 3, 703);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testSearchFilter')
-data.setCell(9, 2, 'ecom.Tests.FiltersTest')
-data.setCell(9, 3, 586);
+data.setCell(9, 1, 'registrationValidationTest')
+data.setCell(9, 2, 'ecom.Tests.RegistrationTest')
+data.setCell(9, 3, 700);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -408,126 +451,128 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ecom.Tests.FiltersTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ecom.Tests.RegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCategoryElectronics</span>
-                <span class="method-start">5849 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=, lastName=Ronaldo, password=Password123, name=First Name Re...)</span>
+                <span class="method-start">3970 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6711 ms</span>
+                <span class="method-start">4740 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">6789 ms</span>
+                <span class="method-start">4825 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCategoryFashion</span>
-                <span class="method-start">8641 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Lionel, lastName=Messi, password=Password123, name=Email Req...)</span>
+                <span class="method-start">8335 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9613 ms</span>
+                <span class="method-start">9091 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">9689 ms</span>
+                <span class="method-start">9177 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCategoryHousehold</span>
-                <span class="method-start">13109 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Neymar, lastName=Junior, password=Password123, name=Phone Nu...)</span>
+                <span class="method-start">12647 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13884 ms</span>
+                <span class="method-start">13369 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">13954 ms</span>
+                <span class="method-start">13455 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testPriceRangeFilter</span>
-                <span class="method-start">15920 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Kylian, lastName=Mbappé, password=, name=Password Required, ...)</span>
+                <span class="method-start">15368 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18680 ms</span>
+                <span class="method-start">16069 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">18751 ms</span>
+                <span class="method-start">16138 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSearchFilter</span>
-                <span class="method-start">20575 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Mohamed, lastName=Salah, password=Password123, name=Confirm ...)</span>
+                <span class="method-start">19640 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21162 ms</span>
+                <span class="method-start">20407 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">21231 ms</span>
+                <span class="method-start">20475 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSubCategoryLaptops</span>
-                <span class="method-start">24884 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Goku, lastName=Son, password=Password123, name=Checkbox Not ...)</span>
+                <span class="method-start">23884 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25745 ms</span>
+                <span class="method-start">24625 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">25816 ms</span>
+                <span class="method-start">24696 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSubCategoryMobiles</span>
-                <span class="method-start">29563 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Vegeta, lastName=Prince, password=Password123, name=Password...)</span>
+                <span class="method-start">28481 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30500 ms</span>
+                <span class="method-start">29277 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">30571 ms</span>
+                <span class="method-start">29346 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSubCategoryShirts</span>
-                <span class="method-start">34079 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Piccolo, lastName=Namek, password=Password123, name=Phone Nu...)</span>
+                <span class="method-start">31238 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35021 ms</span>
+                <span class="method-start">31942 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">35091 ms</span>
+                <span class="method-start">32013 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSubCategoryShoes</span>
-                <span class="method-start">37129 ms</span>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Gohan, lastName=Son, password=Password123, name=Phone Number...)</span>
+                <span class="method-start">33909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37922 ms</span>
+                <span class="method-start">34618 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">37991 ms</span>
+                <span class="method-start">34688 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSubCategoryTshirts</span>
-                <span class="method-start">41529 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registrationValidationTest({occupationValue=3: Engineer, firstName=Trunks, lastName=Briefs, password=Password123, name=Extra Te...)</span>
+                <span class="method-start">38429 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42423 ms</span>
+                <span class="method-start">49162 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

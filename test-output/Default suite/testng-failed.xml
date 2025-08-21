@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cucumber.TestNGRunner">
+      <class name="ecom.Tests.RegistrationTest">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 2 3"/>
-          <include name="tearDownClass"/>
+          <include name="registrationValidationTest" invocation-numbers="9"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- cucumber.TestNGRunner -->
+      </class> <!-- ecom.Tests.RegistrationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

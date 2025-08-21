@@ -25,6 +25,19 @@ public class LoginPage extends CommonComponents {
     @FindBy(id = "login")
     private WebElement loginBtn;
     
+  // register here
+    
+//    @FindBy(css = ".forgot-password-link")
+//    private WebElement forgotPassword;
+    
+//    @FindBy(xpath = "p[@class='login-wrapper-footer-text']")
+//    private WebElement registerHere;
+//    
+    By registerHere = By.xpath("//p[@class='login-wrapper-footer-text']");
+    By forgotPassword = By.cssSelector(".forgot-password-link");
+
+
+    
 //    @FindBy(css="[class*='flyInOut']") // error wala
 //	WebElement errorMessage;
     
@@ -45,5 +58,16 @@ public class LoginPage extends CommonComponents {
         WebElement errorElem = waitForVisibility(errorMessage, 5); 
         return errorElem.getText();
     }
+    
+    public void gotoForgetPwPage() {
+    	WebElement forgetPwBtn = waitForVisibility(forgotPassword, 5); 
+        forgetPwBtn.click();
+    }
+    
+    public void gotoRegistrationPage() {
+    	WebElement registerHereBtn = waitForVisibility(registerHere, 5); 
+    	registerHereBtn.click();
+    }
+    
 
 }

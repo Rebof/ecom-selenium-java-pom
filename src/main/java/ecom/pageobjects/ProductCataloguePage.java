@@ -20,7 +20,9 @@ public class ProductCataloguePage extends CommonComponents {
     private By productsLocator = By.cssSelector(".mb-3");
     private By productNameTag = By.cssSelector("b");
     private By addToCartButton = By.cssSelector(".card-body button:last-of-type");
+    private By viewButton = By.cssSelector(".card-body button:first-of-type");
     private By toastContainer = By.cssSelector("#toast-container"); // when no products
+    private By price = By.xpath("//div[@class='text-muted']");
 
     public ProductCataloguePage(WebDriver driver) {
         super(driver);
@@ -86,6 +88,33 @@ public class ProductCataloguePage extends CommonComponents {
             throw new RuntimeException("Product not found: " + productName);
         }
     }
+    
+    public int goToProductDetails(String productName) {
+        WebElement prod = getProductByName(productName);
+        if (prod != null) {
+        	int price = getPriceOfProduct(productName);
+            prod.findElement(viewButton).click();
+            return price;
+        } else {
+            throw new RuntimeException("Product not found: " + productName);
+        }
+    }
+    
+    public int getPriceOfProduct(String productName) {
+        WebElement product = getProductByName(productName);
+        if (product != null) {
+            String priceText = product.findElement(price).getText();
+
+            // remove all non-digits and parse
+            String digits = priceText.replaceAll("[^0-9]", "");
+            return Integer.parseInt(digits);
+        } else {
+            throw new RuntimeException("Product not found: " + productName);
+        }
+    }
+
+    
+    
 
     // ---------- Search & Price Methods 
 
