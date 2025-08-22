@@ -171,3 +171,5 @@ public class FiltersTest extends BaseTest {
         Assert.assertTrue(catalogue.isToastVisible(), "Toast should appear since no products exist in Laptops");
     }
 }
+
+//test

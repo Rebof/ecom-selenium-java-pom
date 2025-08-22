@@ -308,3 +308,38 @@
 22:33:14.889 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
 22:33:15.006 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
 22:33:15.007 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: trunks4060@example.com
+23:26:14.431 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:28:06.590 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:28:07.325 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Catalogue Page: 31500
+23:28:32.598 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:28:33.318 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Catalogue Page: 31500
+23:28:48.848 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:28:49.585 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Catalogue Page: 31500
+23:32:08.305 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:32:09.075 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Catalogue Page: 31500
+23:33:26.752 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:33:27.551 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Catalogue Page: 31500
+23:33:27.587 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Details Page: 31500
+23:33:27.589 [main] INFO  ecom.Tests.ProductDetailsTest - Price consistency test completed successfully.
+23:38:28.039 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:38:28.783 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Catalogue Page: 31500
+23:38:28.857 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Details Page: 31500
+23:40:09.192 [main] INFO  ecom.Tests.ProductDetailsTest - Starting Product Price Consistency Test
+23:40:09.958 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Catalogue Page: 31500
+23:40:10.032 [main] INFO  ecom.Tests.ProductDetailsTest - Price from Details Page: 31500
+23:40:10.033 [main] INFO  ecom.Tests.ProductDetailsTest - Price consistency test completed successfully.
+05:41:31.055 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+05:41:31.062 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+05:41:36.603 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+05:41:36.604 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+05:41:38.816 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+05:43:39.269 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+05:43:39.278 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+05:43:44.409 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+05:43:44.409 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+05:43:46.716 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+05:45:26.414 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+05:45:26.423 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+05:45:32.126 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
+05:45:32.126 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
+05:45:34.314 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.

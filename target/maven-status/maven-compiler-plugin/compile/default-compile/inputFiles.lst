@@ -5,4 +5,6 @@
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/main/java/ecom/pageobjects/LoginPage.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/main/java/ecom/pageobjects/OrderPage.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/main/java/ecom/pageobjects/ProductCataloguePage.java
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/main/java/ecom/pageobjects/ProductDetailsPage.java
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/main/java/ecom/pageobjects/RegistrationPage.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/main/java/ecom/resources/ExtentReportsNG.java

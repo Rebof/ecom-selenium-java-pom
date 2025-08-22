@@ -1,8 +1,10 @@
 ecom/resources/ExtentReportsNG.class
 ecom/pageobjects/ProductCataloguePage.class
 ecom/pageobjects/OrderPage.class
+ecom/pageobjects/ProductDetailsPage.class
 ecom/pageobjects/LoginPage.class
 ecom/pageobjects/CartPage.class
 ecom/common/CommonComponents.class
 ecom/pageobjects/CheckOutPage.class
 ecom/pageobjects/ConfirmationPage.class
+ecom/pageobjects/RegistrationPage.class

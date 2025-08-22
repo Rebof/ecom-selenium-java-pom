@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Ecom_Suite" class="navigator-link ">
-                    <span>cartvalidation.xml</span>
+                    <span>loginvalidation.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,10 +103,24 @@
                     <div class="method-list-content failed suite-Ecom_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Ecom_Suite" title="ecom.Tests.ErrorValidationsTest" class="method navigator-link" hash-for-method="productErrorValidation">productErrorValidation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Ecom_Suite" title="ecom.Tests.ErrorValidationsTest" class="method navigator-link" hash-for-method="loginErrorValidation">loginErrorValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Ecom_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Ecom_Suite" class="hide-methods skipped suite-Ecom_Suite"> (hide)</a> <!-- hide-methods skipped suite-Ecom_Suite -->
+                      <a href="#" panel-name="suite-Ecom_Suite" class="show-methods skipped suite-Ecom_Suite"> (show)</a> <!-- show-methods skipped suite-Ecom_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Ecom_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecom_Suite" title="ecom.Tests.ErrorValidationsTest" class="method navigator-link" hash-for-method="loginErrorValidation">loginErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Ecom_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -126,18 +140,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="productErrorValidation">
-                  </a> <!-- productErrorValidation -->
-                  <span class="method-name">productErrorValidation</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 718)
-  (Session info: chrome=139.0.7258.66)
+                  <a name="loginErrorValidation">
+                  </a> <!-- loginErrorValidation -->
+                  <span class="method-name">loginErrorValidation</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 676)
+  (Session info: chrome=139.0.7258.138)
 Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-71-generic&apos;, java.version: &apos;21.0.7&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-78-generic&apos;, java.version: &apos;21.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bb40271b71ef035dd73d23ae043856c, clickElement {id=f.2C06E7D828BAA44FEF23F4C07672294C.d.7D2DD70211F224B26042C9417EC143B4.e.10}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42237}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42237/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (5bb40271b71ef035dd73d23ae043856c)] -&gt; id: login]
-Session ID: 5bb40271b71ef035dd73d23ae043856c
+Command: [766ee30a0b7829a9c6d3a69ef7b7af78, clickElement {id=f.576A8CD3B162A3BD9F24A5F8721ABAF8.d.DCABB83FB82FF4934E9BAE646163D456.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37015/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (766ee30a0b7829a9c6d3a69ef7b7af78)] -&gt; id: login]
+Session ID: 766ee30a0b7829a9c6d3a69ef7b7af78
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -149,8 +163,8 @@ Session ID: 5bb40271b71ef035dd73d23ae043856c
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
-	at ecom.pageobjects.LoginPage.loginApplication(LoginPage.java:37)
-	at ecom.Tests.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:47)
+	at ecom.pageobjects.LoginPage.loginApplication(LoginPage.java:50)
+	at ecom.Tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
@@ -162,10 +176,54 @@ Session ID: 5bb40271b71ef035dd73d23ae043856c
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Ecom_Suite-class-failed -->
+          <div class="suite-Ecom_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ecom.Tests.ErrorValidationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginErrorValidation">
+                  </a> <!-- loginErrorValidation -->
+                  <span class="method-name">loginErrorValidation</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 515)
+  (Session info: chrome=139.0.7258.138)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.8.0-78-generic&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9339bba0dc890be8fd5fb5b49150548f, clickElement {id=f.3116AFFEB3A45F4846A291FF9D43CAB0.d.EE43433C5B1372FFA1F2223B3C294377.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38779/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (9339bba0dc890be8fd5fb5b49150548f)] -&gt; id: login]
+Session ID: 9339bba0dc890be8fd5fb5b49150548f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at ecom.pageobjects.LoginPage.loginApplication(LoginPage.java:50)
+	at ecom.Tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecom_Suite-class-skipped -->
         </div> <!-- panel Ecom_Suite -->
         <div panel-name="test-xml-Ecom_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/rebof/eclipse-workspace/rahushetty_ecommerce/test_suites/cartvalidation.xml</span>
+            <span class="header-content">/home/rebof/eclipse-workspace/rahushetty_ecommerce/test_suites/loginvalidation.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -175,16 +233,16 @@ Session ID: 5bb40271b71ef035dd73d23ae043856c
   &lt;listeners&gt;
     &lt;listener class-name=&quot;ecom.TestComponents.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Cart Validation Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Login Validation Test&quot; verbose=&quot;0&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;cartValidation&quot;/&gt;
+        &lt;include name=&quot;loginValidation&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;ecom.Tests.ErrorValidationsTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Cart Validation Test --&gt;
+  &lt;/test&gt; &lt;!-- Login Validation Test --&gt;
 &lt;/suite&gt; &lt;!-- Ecom Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,7 +254,7 @@ Session ID: 5bb40271b71ef035dd73d23ae043856c
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Cart Validation Test (1 class)</span>
+                <span class="test-name">Login Validation Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,10 +265,10 @@ Session ID: 5bb40271b71ef035dd73d23ae043856c
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">cartValidation</span>
+              <span class="test-group-name">loginValidation</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">productErrorValidation</span>
+                <span class="method-in-group-name">loginErrorValidation</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -230,16 +288,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'productErrorValidation')
+data.setCell(0, 1, 'loginErrorValidation')
 data.setCell(0, 2, 'ecom.Tests.ErrorValidationsTest')
-data.setCell(0, 3, 1311);
+data.setCell(0, 3, 1920);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginErrorValidation')
+data.setCell(1, 2, 'ecom.Tests.ErrorValidationsTest')
+data.setCell(1, 3, 1586);
 window.suiteTableData['Ecom_Suite']= { tableData: data, tableDiv: 'times-div-Ecom_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Ecom_Suite">
               </div> <!-- times-div-Ecom_Suite -->
             </div> <!-- times-div -->
@@ -260,7 +322,7 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">ecom.Tests.ErrorValidationsTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginErrorValidation</span>
+                <span class="ignored-method-name">productErrorValidation</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -278,14 +340,26 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">productErrorValidation</span>
-                <span class="method-start">4327 ms</span>
+                <span class="method-name">loginErrorValidation</span>
+                <span class="method-start">4190 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5799 ms</span>
+                <span class="method-start">6126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">6270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginErrorValidation</span>
+                <span class="method-start">9929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11731 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

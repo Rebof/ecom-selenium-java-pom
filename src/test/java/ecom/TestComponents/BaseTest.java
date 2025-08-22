@@ -42,10 +42,14 @@ public class BaseTest {
 
             if (browserName.toLowerCase().contains("headless")) {
                 options.addArguments("--headless=new");
-                options.addArguments("--window-size=1440,2000");
+//                options.addArguments("--window-size=1440,2000");
+                options.addArguments("--start-maximized");
+                options.addArguments("--window-size=1920,1080");
+                
             } else {
                 // Normal headed mode
                 options.addArguments("--start-maximized");
+                options.addArguments("--window-size=1920,1080");
             }
 
             driver = new ChromeDriver(options);

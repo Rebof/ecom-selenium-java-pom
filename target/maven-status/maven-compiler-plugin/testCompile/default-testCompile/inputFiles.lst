@@ -1,8 +1,14 @@
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/cucumber/TestNGRunner.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/TestComponents/BaseTest.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/TestComponents/Listeners.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/TestComponents/Retry.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/Tests/ErrorValidationsTest.java
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/Tests/FiltersTest.java
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/Tests/ProductDetailsTest.java
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/Tests/RegistrationTest.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/Tests/SubmitOrderTest.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/Tests/standalonetest.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/data/DataProviders.java
 /home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/data/DataReader.java
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/stepDefinitions/HooksCucumber.java
+/home/rebof/eclipse-workspace/rahushetty_ecommerce/src/test/java/ecom/stepDefinitions/StepDefinitionCucumber.java

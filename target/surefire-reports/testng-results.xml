@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results retried="1" ignored="1" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-14T02:01:04 EDT" name="Ecom Suite" finished-at="2025-08-14T02:01:10 EDT" duration-ms="5892">
+  <suite started-at="2025-08-21T05:45:22 EDT" name="Ecom Suite" finished-at="2025-08-21T05:45:34 EDT" duration-ms="11856">
     <groups>
-      <group name="cartValidation">
-        <method signature="ErrorValidationsTest.productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" name="productErrorValidation" class="ecom.Tests.ErrorValidationsTest"/>
-      </group> <!-- cartValidation -->
+      <group name="loginValidation">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@70dd7e15]" name="loginErrorValidation" class="ecom.Tests.ErrorValidationsTest"/>
+      </group> <!-- loginValidation -->
     </groups>
-    <test started-at="2025-08-14T02:01:04 EDT" name="Cart Validation Test" finished-at="2025-08-14T02:01:10 EDT" duration-ms="5892">
+    <test started-at="2025-08-21T05:45:22 EDT" name="Login Validation Test" finished-at="2025-08-21T05:45:34 EDT" duration-ms="11856">
       <class name="ecom.Tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" started-at="2025-08-14T02:01:04 EDT" name="launchApplication" finished-at="2025-08-14T02:01:08 EDT" duration-ms="4325" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ErrorValidationsTest@70dd7e15]" started-at="2025-08-21T05:45:22 EDT" name="launchApplication" finished-at="2025-08-21T05:45:26 EDT" duration-ms="4187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" started-at="2025-08-14T02:01:08 EDT" name="productErrorValidation" finished-at="2025-08-14T02:01:10 EDT" duration-ms="1311" status="FAIL">
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@70dd7e15]" started-at="2025-08-21T05:45:26 EDT" name="loginErrorValidation" finished-at="2025-08-21T05:45:28 EDT" duration-ms="1920" status="SKIP">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (392, 718)
-  (Session info: chrome=139.0.7258.66)
+              <![CDATA[element click intercepted: Element is not clickable at point (392, 515)
+  (Session info: chrome=139.0.7258.138)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-71-generic', java.version: '21.0.7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-78-generic', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bb40271b71ef035dd73d23ae043856c, clickElement {id=f.2C06E7D828BAA44FEF23F4C07672294C.d.7D2DD70211F224B26042C9417EC143B4.e.10}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42237}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42237/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (5bb40271b71ef035dd73d23ae043856c)] -> id: login]
-Session ID: 5bb40271b71ef035dd73d23ae043856c]]>
+Command: [9339bba0dc890be8fd5fb5b49150548f, clickElement {id=f.3116AFFEB3A45F4846A291FF9D43CAB0.d.EE43433C5B1372FFA1F2223B3C294377.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38779/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (9339bba0dc890be8fd5fb5b49150548f)] -> id: login]
+Session ID: 9339bba0dc890be8fd5fb5b49150548f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 718)
-  (Session info: chrome=139.0.7258.66)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 515)
+  (Session info: chrome=139.0.7258.138)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-71-generic', java.version: '21.0.7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-78-generic', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5bb40271b71ef035dd73d23ae043856c, clickElement {id=f.2C06E7D828BAA44FEF23F4C07672294C.d.7D2DD70211F224B26042C9417EC143B4.e.10}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.66, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42237}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:42237/devtoo..., se:cdpVersion: 139.0.7258.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (5bb40271b71ef035dd73d23ae043856c)] -> id: login]
-Session ID: 5bb40271b71ef035dd73d23ae043856c
+Command: [9339bba0dc890be8fd5fb5b49150548f, clickElement {id=f.3116AFFEB3A45F4846A291FF9D43CAB0.d.EE43433C5B1372FFA1F2223B3C294377.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:38779/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (9339bba0dc890be8fd5fb5b49150548f)] -> id: login]
+Session ID: 9339bba0dc890be8fd5fb5b49150548f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -53,8 +53,8 @@ at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethod
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
-at ecom.pageobjects.LoginPage.loginApplication(LoginPage.java:37)
-at ecom.Tests.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:47)
+at ecom.pageobjects.LoginPage.loginApplication(LoginPage.java:50)
+at ecom.Tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -80,12 +80,87 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ErrorValidationsTest@7fd4acee]" started-at="2025-08-14T02:01:10 EDT" name="tearDown" finished-at="2025-08-14T02:01:10 EDT" duration-ms="74" status="PASS">
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ErrorValidationsTest@70dd7e15]" started-at="2025-08-21T05:45:28 EDT" name="tearDown" finished-at="2025-08-21T05:45:28 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ErrorValidationsTest@70dd7e15]" started-at="2025-08-21T05:45:28 EDT" name="launchApplication" finished-at="2025-08-21T05:45:32 EDT" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@70dd7e15]" started-at="2025-08-21T05:45:32 EDT" name="loginErrorValidation" finished-at="2025-08-21T05:45:33 EDT" duration-ms="1586" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (392, 676)
+  (Session info: chrome=139.0.7258.138)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-78-generic', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [766ee30a0b7829a9c6d3a69ef7b7af78, clickElement {id=f.576A8CD3B162A3BD9F24A5F8721ABAF8.d.DCABB83FB82FF4934E9BAE646163D456.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37015/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (766ee30a0b7829a9c6d3a69ef7b7af78)] -> id: login]
+Session ID: 766ee30a0b7829a9c6d3a69ef7b7af78]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 676)
+  (Session info: chrome=139.0.7258.138)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-78-generic', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [766ee30a0b7829a9c6d3a69ef7b7af78, clickElement {id=f.576A8CD3B162A3BD9F24A5F8721ABAF8.d.DCABB83FB82FF4934E9BAE646163D456.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37015/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (766ee30a0b7829a9c6d3a69ef7b7af78)] -> id: login]
+Session ID: 766ee30a0b7829a9c6d3a69ef7b7af78
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at ecom.pageobjects.LoginPage.loginApplication(LoginPage.java:50)
+at ecom.Tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ErrorValidationsTest@70dd7e15]" started-at="2025-08-21T05:45:33 EDT" name="tearDown" finished-at="2025-08-21T05:45:34 EDT" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ecom.Tests.ErrorValidationsTest -->
-    </test> <!-- Cart Validation Test -->
+    </test> <!-- Login Validation Test -->
   </suite> <!-- Ecom Suite -->
 </testng-results>
