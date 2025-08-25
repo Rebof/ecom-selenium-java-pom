@@ -21,7 +21,7 @@ public class RegistrationTest extends BaseTest {
     @Test(
         dataProvider = "registrationData", 
         dataProviderClass = DataProviders.class,
-        groups = {"validation"}
+        groups = {"registration"}
     )
     public void registrationValidationTest(HashMap<String, String> inputData) {
         String testName = inputData.get("name");

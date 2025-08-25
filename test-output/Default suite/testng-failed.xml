@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecom.Tests.ProductDetailsTest">
+      <class name="ecom.Tests.DeleteInOrderPage">
         <methods>
-          <include name="verifyProductPriceConsistency"/>
+          <include name="deleteInOrderPage" invocation-numbers="1"/>
           <include name="launchApplication"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- ecom.Tests.ProductDetailsTest -->
+      </class> <!-- ecom.Tests.DeleteInOrderPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

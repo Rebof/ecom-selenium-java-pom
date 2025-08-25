@@ -343,3 +343,76 @@
 05:45:32.126 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: loginErrorValidation
 05:45:32.126 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting login error validation test
 05:45:34.314 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+07:22:42.465 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: First Name Required
+07:22:42.482 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:22:42.613 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:22:42.614 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: cr744157@example.com
+07:22:43.261 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: First Name Required
+07:22:47.275 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Email Required
+07:22:47.276 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:22:47.394 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:22:47.966 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Email Required
+07:22:49.966 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Phone Number Required
+07:22:49.966 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:22:50.069 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:22:50.070 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: neymar92281@example.com
+07:22:50.689 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Phone Number Required
+07:22:55.337 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Password Required
+07:22:55.338 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:22:55.469 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:22:55.470 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: mbappe81245@example.com
+07:22:56.052 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Password Required
+07:23:00.349 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Confirm Password Required
+07:23:00.350 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:23:00.478 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:23:00.479 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: salah77476@example.com
+07:23:01.069 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Confirm Password Required
+07:23:05.296 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Checkbox Not Selected
+07:23:05.297 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:23:05.414 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:23:05.415 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: goku96070@example.com
+07:23:05.926 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Checkbox Not Selected
+07:23:07.942 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Password and Confirm Password Mismatch
+07:23:07.943 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:23:08.042 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:23:08.042 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: vegeta61806@example.com
+07:23:08.640 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Password and Confirm Password Mismatch
+07:23:10.566 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Phone Number With Letters
+07:23:10.566 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:23:10.671 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:23:10.672 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: piccolo47075@example.com
+07:23:11.254 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Phone Number With Letters
+07:23:15.239 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Phone Number More Than 10 Digits
+07:23:15.240 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:23:15.419 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:23:15.419 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: gohan43072@example.com
+07:23:16.540 [main] INFO  ecom.Tests.RegistrationTest - Validation successful for test: Phone Number More Than 10 Digits
+07:23:18.412 [main] INFO  ecom.Tests.RegistrationTest - Starting registration validation test: Extra Test Case
+07:23:18.412 [main] INFO  ecom.Tests.RegistrationTest - Navigated to login page
+07:23:18.515 [main] INFO  ecom.Tests.RegistrationTest - Navigated to registration page
+07:23:18.515 [main] INFO  ecom.Tests.RegistrationTest - Generated unique email: trunks24155@example.com
+09:42:00.396 [main] INFO  ecom.Tests.DeleteInOrderPage - Starting delete order test
+09:42:00.409 [main] INFO  ecom.Tests.DeleteInOrderPage - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+09:42:01.400 [main] INFO  ecom.Tests.DeleteInOrderPage - Product added to cart: ZARA COAT 3
+09:42:14.276 [main] INFO  ecom.Tests.DeleteInOrderPage - Verified product in cart: ZARA COAT 3
+09:42:14.989 [main] INFO  ecom.Tests.DeleteInOrderPage - Order placed for: ZARA COAT 3
+09:42:15.110 [main] INFO  ecom.Tests.DeleteInOrderPage - Order confirmed with message: THANKYOU FOR THE ORDER.
+09:42:15.330 [main] INFO  ecom.Tests.DeleteInOrderPage - Deleted product from order page: ZARA COAT 3
+09:42:15.347 [main] INFO  ecom.Tests.DeleteInOrderPage - Toast displayed: Order Placed Successfully
+09:42:19.071 [main] INFO  ecom.Tests.DeleteInOrderPage - Starting delete order test
+09:42:19.072 [main] INFO  ecom.Tests.DeleteInOrderPage - Login credentials -> Email: john.doe@example.com, Password: ********
+09:52:24.541 [main] INFO  ecom.Tests.DeleteInOrderPage - Starting delete order test
+09:52:24.546 [main] INFO  ecom.Tests.DeleteInOrderPage - Login credentials -> Email: rebofkatwal10@gmail.com, Password: ********
+09:52:25.247 [main] INFO  ecom.Tests.DeleteInOrderPage - Product added to cart: ZARA COAT 3
+09:52:38.158 [main] INFO  ecom.Tests.DeleteInOrderPage - Verified product in cart: ZARA COAT 3
+09:52:38.976 [main] INFO  ecom.Tests.DeleteInOrderPage - Order placed for: ZARA COAT 3
+09:52:39.095 [main] INFO  ecom.Tests.DeleteInOrderPage - Order confirmed with message: THANKYOU FOR THE ORDER.
+09:52:39.317 [main] INFO  ecom.Tests.DeleteInOrderPage - Deleted product from order page: ZARA COAT 3
+09:52:39.334 [main] INFO  ecom.Tests.DeleteInOrderPage - Toast message appeared successfully after deletion
+09:52:45.456 [main] INFO  ecom.Tests.DeleteInOrderPage - Starting delete order test
+09:52:45.456 [main] INFO  ecom.Tests.DeleteInOrderPage - Login credentials -> Email: john.doe@example.com, Password: ********
+10:05:40.811 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - Starting test: productErrorValidation
+10:05:40.813 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Starting product error validation test
+10:05:41.622 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Product added to cart: ZARA COAT 3
+10:05:54.436 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
+10:05:54.706 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.

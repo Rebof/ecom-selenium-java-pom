@@ -52,6 +52,12 @@ public class CommonComponents {
     }
     
     
+    public void goToOrderFromAnywhere() {
+    	By ordersButton = By.cssSelector("button[routerlink='/dashboard/myorders']");
+        driver.findElement(ordersButton).click();
+    }
+    
+    
     
 
     /**

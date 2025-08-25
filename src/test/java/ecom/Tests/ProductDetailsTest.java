@@ -28,7 +28,8 @@ public class ProductDetailsTest extends BaseTest {
 
         // Product Catalogue
         ProductCataloguePage productCatalogue = new ProductCataloguePage(driver);
-        List<WebElement> products = productCatalogue.getProductList();
+        @SuppressWarnings("unused")
+		List<WebElement> products = productCatalogue.getProductList();
 
 
         int cataloguePrice = productCatalogue.goToProductDetails(productName);
