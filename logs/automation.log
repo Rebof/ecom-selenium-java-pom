@@ -416,3 +416,8 @@
 10:05:41.622 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Product added to cart: ZARA COAT 3
 10:05:54.436 [TestNG-tests-1] INFO  ecom.Tests.ErrorValidationsTest - Verified product error validation passed
 10:05:54.706 [TestNG-tests-1] INFO  ecom.TestComponents.Listeners - All tests finished. Reports generated.
+11:02:27.094 [main] INFO  ecom.Tests.ForgotPasswordTest - Registered new user: test17094@example.com
+11:06:59.060 [main] INFO  ecom.Tests.ForgotPasswordTest - Registered new user: test72863@example.com
+11:06:59.597 [main] INFO  ecom.Tests.ForgotPasswordTest - Password reset done for user: test72863@example.com
+11:06:59.661 [main] INFO  ecom.Tests.ForgotPasswordTest - Logging in with new password -> Email: test72863@example.com, Password: ********
+11:06:59.829 [main] INFO  ecom.Tests.ForgotPasswordTest - User reached Product Catalogue Page after password reset

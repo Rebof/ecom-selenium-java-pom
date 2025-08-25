@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecom.Tests.DeleteInOrderPage">
+      <class name="ecom.Tests.ForgotPasswordTest">
         <methods>
-          <include name="deleteInOrderPage" invocation-numbers="1"/>
+          <include name="forgotPasswordFlow"/>
           <include name="launchApplication"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- ecom.Tests.DeleteInOrderPage -->
+      </class> <!-- ecom.Tests.ForgotPasswordTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

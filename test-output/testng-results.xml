@@ -2,27 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-25T10:05:38 EDT" name="Ecom Suite" finished-at="2025-08-25T10:05:54 EDT" duration-ms="16419">
+  <suite started-at="2025-08-25T11:06:52 EDT" name="Default suite" finished-at="2025-08-25T11:06:59 EDT" duration-ms="7899">
     <groups>
-      <group name="cartValidation">
-        <method signature="ErrorValidationsTest.productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@4c36250e]" name="productErrorValidation" class="ecom.Tests.ErrorValidationsTest"/>
-      </group> <!-- cartValidation -->
     </groups>
-    <test started-at="2025-08-25T10:05:38 EDT" name="Cart Validation Test" finished-at="2025-08-25T10:05:54 EDT" duration-ms="16419">
-      <class name="ecom.Tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ErrorValidationsTest@4c36250e]" started-at="2025-08-25T10:05:38 EDT" name="launchApplication" finished-at="2025-08-25T10:05:40 EDT" duration-ms="2679" status="PASS">
+    <test started-at="2025-08-25T11:06:52 EDT" name="Default test" finished-at="2025-08-25T11:06:59 EDT" duration-ms="7899">
+      <class name="ecom.Tests.ForgotPasswordTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecom.Tests.ForgotPasswordTest@710b18a6]" started-at="2025-08-25T11:06:52 EDT" name="launchApplication" finished-at="2025-08-25T11:06:58 EDT" duration-ms="6324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:ecom.Tests.ErrorValidationsTest@4c36250e]" started-at="2025-08-25T10:05:40 EDT" name="productErrorValidation" finished-at="2025-08-25T10:05:54 EDT" duration-ms="13637" status="PASS">
+        <test-method signature="forgotPasswordFlow()[pri:0, instance:ecom.Tests.ForgotPasswordTest@710b18a6]" started-at="2025-08-25T11:06:58 EDT" name="forgotPasswordFlow" finished-at="2025-08-25T11:06:59 EDT" duration-ms="1469" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ErrorValidationsTest@4c36250e]" started-at="2025-08-25T10:05:54 EDT" name="tearDown" finished-at="2025-08-25T10:05:54 EDT" duration-ms="77" status="PASS">
+        </test-method> <!-- forgotPasswordFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.Tests.ForgotPasswordTest@710b18a6]" started-at="2025-08-25T11:06:59 EDT" name="tearDown" finished-at="2025-08-25T11:06:59 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ecom.Tests.ErrorValidationsTest -->
-    </test> <!-- Cart Validation Test -->
-  </suite> <!-- Ecom Suite -->
+      </class> <!-- ecom.Tests.ForgotPasswordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

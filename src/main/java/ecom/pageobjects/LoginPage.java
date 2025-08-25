@@ -54,6 +54,8 @@ public class LoginPage extends CommonComponents {
         driver.get("https://rahulshettyacademy.com/client");
     }
     
+
+    
     public String getErrorMessage() {
         WebElement errorElem = waitForVisibility(errorMessage, 5); 
         return errorElem.getText();

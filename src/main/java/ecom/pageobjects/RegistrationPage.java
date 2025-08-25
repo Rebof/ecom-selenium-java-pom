@@ -1,10 +1,16 @@
 package ecom.pageobjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import ecom.common.CommonComponents;
+
 
 public class RegistrationPage extends CommonComponents{
     
@@ -14,7 +20,7 @@ public class RegistrationPage extends CommonComponents{
         super(driver);
     }
 
-    // Locators
+    private By loginButton = By.cssSelector("button[routerlink='/auth'].btn.btn-primary");
     private By firstName = By.id("firstName");
     private By lastName = By.id("lastName");
     private By email = By.id("userEmail");
@@ -49,6 +55,13 @@ public class RegistrationPage extends CommonComponents{
 
     public void enterConfirmPassword(String confirmPass) {
         driver.findElement(confirmPassword).sendKeys(confirmPass);
+    }
+    
+    // ---------------- Login Button ----------------
+    public void clickLoginButton() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(loginButton));
+        btn.click();
     }
 
     // Select occupation by VALUE attribute (e.g. "1: Doctor", "2: Student", etc.)
